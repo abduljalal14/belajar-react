@@ -18,4 +18,4 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: public_html/  # Sesuaikan dengan folder di Hostinger
+          server-dir: ./  # Sesuaikan dengan folder di Hostinger
